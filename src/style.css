@@ -1,0 +1,38 @@
+.my-profile{
+    width: 600px;
+    height: 200px;
+    border: 1px solid red;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    width: 600px;    
+    background-color: cadetblue;
+    border-radius: 1rem;
+    position: sticky;
+    top: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;    
+    margin: 0.5rem;
+}
+.formulaire form input{
+    margin: 0.5rem 0;
+    width: 350px;
+    height: 40px;
+}
+.btnInscrire{
+    color: white;
+    width: 180px;
+    background-color: rgb(9, 5, 219);
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 0.5rem;
+}
+
